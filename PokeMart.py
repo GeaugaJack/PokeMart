@@ -2,8 +2,6 @@ import openpyxl as xl
 
 wb = xl.load_workbook("PokeMartItems.xlsx")
 sheet = wb["Sheet1"]
-cell = sheet.cell (2, 2)
-print(cell.value)
 
 for row in range(3):
     cell = sheet.cell(row, 3)
